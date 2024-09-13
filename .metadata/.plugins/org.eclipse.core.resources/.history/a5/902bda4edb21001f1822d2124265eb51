@@ -1,0 +1,18 @@
+package exer1;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Relogio relogio = new Relogio();
+		
+		String horas = relogio.acertarRelogio(3,25,50);
+		
+		
+		System.out.println(horas);
+		
+		
+	}
+		
+	
+}

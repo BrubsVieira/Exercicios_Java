@@ -1,0 +1,10 @@
+[bola, tomate, pepino]
+[toma, sd]
+[bola, tomate]
+
+Lista : 
+[bola, tomate]
+Lista : 
+ []
+Lista : 
+ [bola, cachorro]

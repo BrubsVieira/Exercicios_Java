@@ -1,0 +1,29 @@
+package exer2;
+
+public abstract class ContaBancaria {
+	
+	protected static double saldo;
+
+	
+	public ContaBancaria(double valor) {
+			
+	}
+	public double depositar(double valor) {
+		return ContaBancaria.saldo+valor; 
+	}
+	public double sacar (double valor) {
+		return ContaBancaria.saldo-valor;
+	}
+	public double transferir(double valor) {
+		return ContaBancaria.saldo - valor;
+	}
+	public double getSaldo() {
+		return ContaBancaria.saldo;
+	}
+	public static void setSaldo(double saldo) {
+		ContaBancaria.saldo = saldo;
+	}
+	public abstract double calcularSaldo();
+	
+}	
+  

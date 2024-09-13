@@ -1,0 +1,10 @@
+
+public class Aplicacao {
+	
+	public static <K, V> void main(String[] args) {
+		
+		Map<Integer,String> m = new Map<Integer, String>();
+		
+		m.put(null, null);
+	}
+}

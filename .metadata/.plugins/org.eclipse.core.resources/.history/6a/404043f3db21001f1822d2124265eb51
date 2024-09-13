@@ -1,0 +1,22 @@
+package exer1;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Relogio relogio = new Relogio();
+		Ponteiro ponteiro = new Ponteiro();
+		
+		String horas = relogio.acertarRelogio(3,25,50);
+		
+		ponteiro.posicao = relogio.lerHora(3);
+		ponteiro.posicao = relogio.lerMinuto(5);
+		ponteiro.posicao = relogio.lerSegundo(10);
+		
+		System.out.println(horas);
+		
+		System.out.println(ponteiro);
+	}
+		
+	
+}

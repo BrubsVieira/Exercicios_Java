@@ -1,0 +1,14 @@
+package exer2;
+
+public abstract class ContaCorrente extends ContaBancaria {
+
+	public ContaCorrente(double valor) {
+		super(valor);
+		
+		ContaBancaria.saldo = valor;
+	}
+	
+
+
+
+}

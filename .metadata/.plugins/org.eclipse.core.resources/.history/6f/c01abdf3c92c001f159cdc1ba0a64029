@@ -1,0 +1,16 @@
+package exer2;
+
+public class Aplicacao {
+
+	public static void main(String[] args) {
+		
+		ContaBancaria corrente = new ContaCorrente(300);
+		
+		corrente.sacar(5);
+		corrente.transferir(10,"Emmanuel Tito = Agencia 123");
+		double saldo = corrente.depositar(10);
+		System.out.println(saldo);
+		
+	}
+
+}

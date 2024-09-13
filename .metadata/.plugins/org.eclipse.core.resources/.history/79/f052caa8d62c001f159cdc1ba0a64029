@@ -1,0 +1,13 @@
+package exer2;
+
+public class ContaInvestimento extends ContaBancaria {
+
+	
+
+	
+	@Override
+	public double calcularSaldo() {
+		return (ContaInvestimento.saldo*0.10) - ContaInvestimento.saldo; // mesma coisa de ((10/100)*saldo)-saldo;
+	}
+
+}

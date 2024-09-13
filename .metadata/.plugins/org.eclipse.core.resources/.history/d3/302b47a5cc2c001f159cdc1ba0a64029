@@ -1,0 +1,14 @@
+package exer2;
+
+public class Aplicacao {
+
+	public static void main(String[] args) {
+		
+		ContaCorrente.depositar(300);
+		ContaCorrente.sacar(10);
+		double saldo = ContaCorrente.getSaldo();
+		System.out.println(saldo);
+		
+	}
+
+}

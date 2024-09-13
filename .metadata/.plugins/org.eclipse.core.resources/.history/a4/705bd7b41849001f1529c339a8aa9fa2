@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Map <K, V> {
+	
+
+	private List <K> K = new ArrayList<>();
+	private List <V> V = new ArrayList<>();
+
+
+	public boolean put(List<K> chave ,List<V> valor) {
+		
+	if (K == null) {
+		return true;
+	} else {
+		return false;
+	}	
+	}
+	public List<V> get (List<K> chave) {
+		if(V == K) {	
+			return V;	
+		} else {
+			return null;
+		}
+	}
+	public void clear() {
+		K.removeAll(K);
+		V.removeAll(V);
+	}
+}

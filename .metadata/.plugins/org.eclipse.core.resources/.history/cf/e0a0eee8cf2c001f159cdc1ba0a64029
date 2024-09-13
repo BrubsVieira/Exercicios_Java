@@ -1,0 +1,17 @@
+package exer2;
+
+public abstract class ContaBancaria {
+	
+	protected double saldo;
+	
+	
+
+	public double calcularSaldo() {
+		return saldo;
+		
+	}
+
+	
+	
+}	
+  

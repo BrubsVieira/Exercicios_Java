@@ -1,0 +1,18 @@
+package exer2;
+
+public class Aplicacao {
+
+	public static void main(String[] args) {
+		
+		ContaCorrente corrente = new ContaCorrente();
+		corrente.depositar(100);
+		corrente.sacar(10);
+		corrente.transferir(90,"Emmanuel tito");
+	
+		
+		
+		System.out.println(corrente.calcularSaldo());
+		
+	}
+
+}

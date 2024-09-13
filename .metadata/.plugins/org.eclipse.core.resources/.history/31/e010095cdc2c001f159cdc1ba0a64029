@@ -1,0 +1,20 @@
+package exer2;
+
+public class Aplicacao {
+
+	public static void main(String[] args) {
+		// Corrente
+		ContaBancaria corrente = new ContaCorrente();
+		corrente.depositar(20);
+		corrente.sacar(10);
+		corrente.transferir(10);
+		System.out.println(corrente.calcularSaldo());
+		
+		
+		//Investimento
+		ContaBancaria investimento = new ContaInvestimento();
+		investimento.depositar(1);
+		System.out.println(investimento.calcularSaldo());
+	}
+
+}

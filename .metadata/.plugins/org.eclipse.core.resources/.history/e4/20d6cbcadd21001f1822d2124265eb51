@@ -1,0 +1,29 @@
+package exer1;
+
+public class Relogio {
+	
+     int ponteiroHora;
+     int ponteiroMinuto;
+     int ponteiroSegundo;
+     
+	String acertarRelogio(int hora,int minuto,int segundo) {
+		return hora+":"+minuto/5+":"+segundo/5;
+		
+		
+	}
+
+	int lerHora (int hora) {
+		return this.ponteiroHora = hora * 1;
+		
+	}
+	int lerMinuto (int minuto) {
+		return this.ponteiroMinuto = minuto *5;
+		
+	}
+	int lerSegundo(int segundo) {
+		this.ponteiroSegundo = segundo;
+		return segundo *5;
+	}
+	
+	
+}
