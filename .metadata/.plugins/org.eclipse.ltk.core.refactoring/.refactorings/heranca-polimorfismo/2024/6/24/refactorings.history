@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;exer1.Ponto2d&apos; to &apos;Ponto2D&apos;&#x0D;&#x0A;- Original project: &apos;heranca-polimorfismo&apos;&#x0D;&#x0A;- Original element: &apos;exer1.Ponto2d&apos;&#x0D;&#x0A;- Renamed element: &apos;exer1.Ponto2D&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Ponto2d&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;exer1{Ponto2d.java[Ponto2d" matchStrategy="1" name="Ponto2D" qualified="false" references="true" similarDeclarations="false" stamp="1718285867373" textual="false" version="1.0"/>
-</session>
